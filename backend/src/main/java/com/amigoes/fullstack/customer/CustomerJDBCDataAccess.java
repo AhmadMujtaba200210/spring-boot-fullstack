@@ -33,7 +33,7 @@ public class CustomerJDBCDataAccess implements CustomerDao{
         String sql = """
                 SELECT *
                 FROM customer
-                WHERE email=?
+                WHERE name=?
                 """;
         return jdbcTemplate.query(sql,customerRowMapper,email)
                 .stream()
