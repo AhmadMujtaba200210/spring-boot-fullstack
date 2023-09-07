@@ -12,7 +12,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     defaults:
-      repo-token: ${{ secrets.GITHUB_TOKEN }}
+
       run:
         working-directory: ./backend
     services:
@@ -72,3 +72,5 @@ jobs:
           git add .
           git commit -m "Update Dockerrun.aws.json docker image with new tag ${{ steps.build-number.outputs.BUILD_NUMBER }}" .
           git push
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
