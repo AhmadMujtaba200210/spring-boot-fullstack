@@ -167,7 +167,7 @@
                     </from>
                     <to>
                         <image>docker.io/${docker.username}/${docker.image.name}:${docker.image.tag}</image>
-                        // docker.io/ahmadmujtaba200210/fullstack-api:
+
                         <tags>
                             <tag>latest</tag>
                         </tags>
