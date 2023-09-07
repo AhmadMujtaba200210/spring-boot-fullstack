@@ -150,10 +150,10 @@
             <plugin>
                 <groupId>com.google.cloud.tools</groupId>
                 <artifactId>jib-maven-plugin</artifactId>
-                <version>3.3.2</version>
+                <version>3.3.1</version>
                 <configuration>
                     <from>
-                        <image>eclipse-temurin:17</image>
+                        <image>amazoncorretto:latest</image>
                         <platforms>
                             <platform>
                                 <architecture>arm64</architecture>
@@ -166,7 +166,7 @@
                         </platforms>
                     </from>
                     <to>
-                        <image>docker.io/ahmadmujtaba200210/${docker.image.name}:${docker.image.tag}</image>
+                        <image>docker.io/${docker.username}/${docker.image.name}:${docker.image.tag}</image>
                         <tags>
                             <tag>latest</tag>
                         </tags>
