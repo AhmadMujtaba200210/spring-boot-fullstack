@@ -20,6 +20,8 @@
     <properties>
         <java.version>17</java.version>
         <docker.username>ahmadmujtaba200210</docker.username>
+        <docker.image.name>fullstack-api</docker.image.name>
+        <docker.image.tag/>
     </properties>
     <dependencies>
         <dependency>
@@ -164,7 +166,8 @@
                         </platforms>
                     </from>
                     <to>
-                        <image>docker.io/${docker.username}/${project.artifactId}:${project.version}</image>
+                        <image>docker.io/${docker.username}/${docker.image.name}:${docker.image.tag}</image>
+                        // docker.io/ahmadmujtaba200210/fullstack-api:
                         <tags>
                             <tag>latest</tag>
                         </tags>
