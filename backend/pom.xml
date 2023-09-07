@@ -20,7 +20,7 @@
     <properties>
         <java.version>17</java.version>
         <docker.username>ahmadmujtaba200210</docker.username>
-        <docker.image.name>fullstack-api</docker.image.name>
+        <docker.image.name>fullstack</docker.image.name>
         <docker.image.tag/>
     </properties>
     <dependencies>
