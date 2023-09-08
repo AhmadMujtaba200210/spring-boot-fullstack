@@ -153,7 +153,7 @@
                 <version>3.3.2</version>
                 <configuration>
                     <from>
-                        <image>amazoncorretto:latest</image>
+                        <image>eclipse-temurin:17</image>
                         <platforms>
                             <platform>
                                 <architecture>arm64</architecture>
@@ -166,7 +166,7 @@
                         </platforms>
                     </from>
                     <to>
-                        <image>docker.io/${docker.username}/${docker.image.name}:${docker.image.tag}</image>
+                        <image>docker.io/${docker.username}/${docker.image.name}</image>
                         <tags>
                             <tag>latest</tag>
                         </tags>
